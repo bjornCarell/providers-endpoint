@@ -1,0 +1,36 @@
+:root {
+    /* colors */
+    --main-bg-color: #FBFBFC;
+    --dark-color: #427783;
+    --darker-color: #345e68;
+    --darkest-color: #282c34;
+    --light-color:rgb(66, 119, 131);
+    --lighter-color: rgb(87, 155, 170);
+    --lightest-color:  rgb(245, 248, 249);
+    --bright-text: #FFF;
+    --dark-text: #333;
+    --stand-out-color-1: rgb(248, 149, 114);
+    --stand-out-color-2:rgb(252, 223, 212);
+    --stand-out-color-3:rgba(226, 245, 228, 0.619);
+    /* effects*/
+    --box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.08);
+    --box-shadow-hover: 0px 0px 8px 4px rgba(0,0,0,0.09);
+    --transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+    /* fonts */
+    --main-font: "Lota Grotesque", Avenir, Arial, sans-serif;
+    /* space*/
+    --xss-space: 0.5rem;
+    --xs-space: 1rem;
+    --s-space: 1.5rem;
+    --m-space: 2rem;
+    --l-space: 3.5rem;
+    --xl-space: 4.5rem;
+    --xxl-space: 6rem;
+    /* typo */
+    --xs-typo: 1rem;
+    --s-typo: 1.2rem;
+    --m-typo: 1.6rem;
+    --l-typo: 2.4rem;
+    --xl-typo: 3.8rem;
+    --xxl-typo: 6rem;
+}

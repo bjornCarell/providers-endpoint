@@ -1,0 +1,10 @@
+{
+    "presets": ["@babel/preset-env"],
+    "env": {
+        "test": {
+            "plugins": ["@babel/plugin-transform-runtime"] // solves issue "ReferenceError: regeneratorRuntime is not defined", when running async funcion test
+        }
+    }
+}
+
+//https://github.com/babel/babel/issues/5085 

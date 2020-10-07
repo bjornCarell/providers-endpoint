@@ -1,0 +1,33 @@
+@import './styles//variables.css';
+@import './styles/global.css';
+@import './styles/form.css';
+@import './styles//buttons.css';
+@import './styles/form-output.css';
+@import './styles/animations.css';
+@import './styles/input';
+
+#app {
+    background: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#link-api {
+    color: var(--dark-text);
+}
+
+h1 {
+    color: var(--darkest-color);
+    font-size: var(--xl-typo);
+    margin-bottom: var(--xs-space);
+}
+
+.display-name {
+    font-weight: bold;
+}
+
+

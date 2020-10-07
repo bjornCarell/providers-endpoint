@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Providers</title>
+</head>
+<body>
+    <div id="app">
+        <form id="form" onkeydown="return event.key != 'Enter';">
+            <h1>
+                <a id="link-api" target="_blank">
+                    providers<span id="endpoint-market"></span>
+                </a>
+            </h1>
+            <div class="item">
+                <label class="block">Market</label>
+                <select id="market" class="input block"><option>Click to choose a market</option></select>
+              <!--<input class="input block" placeholder="SE" type="text" id="market" maxLength="2"/>-->
+            </div>
+            <div class="item">
+                <label class="block">Property</label>
+                <select id="select-properties" class="input block"><option>...</option></select>
+            </div>
+            <div class="item providers-choice">
+                <label class="block">Show search for each provider:</label>
+                <input id="with-provider-name" class="block checkbox" type="checkbox"/>
+            </div>
+            <div class="item form-actions">
+                <input id="submit"class="block button standard" type="submit" value="submit"/>
+                <input id="clear" class="block button clear" type="button" value="clear">
+            </div>
+        </form>
+    
+        <button id="copy" class="button standard copy">Copy</button>
+        <div id="form-output">
+            <ul id="list"></ul>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+#form {
+    align-self: baseline;
+    justify-self: start;
+    background: var(--lightest-color);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--s-space);
+    margin-left: var(--s-space);
+    padding: var(--s-space);
+    width: 30rem;
+    z-index: 2;
+}
+
+#form .item {
+    flex: 1;
+    margin-bottom: var(--xs-space);
+}
+
+#form label {
+    color: #3e3e3e;
+    display: block;
+    margin: 5px 0;
+}
+
+#form .block {
+    display: block;
+}
+
+#form .input {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    height: 4.2rem;
+    width: 100%;
+    padding: 2px 1rem;
+    transition: var(--transition);
+    -webkit-appearance: none;
+}
+
+#form .input:focus {
+    border: 1px solid var(--darker-color);
+    outline: transparent;
+}
+
+#form .input:hover {
+    box-shadow: var(--box-shadow-hover);
+}
+
+#form .form-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form .providers-choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form .providers-choice label {
+    font-size: var(--m-typo);
+}
+
+#form .providers-choice input[type=checkbox] {
+    margin-left: 5px;
+}
+
+#form .providers-choice input[type=checkbox]:checked {
+    background: var(--stand-out-color-3);
+}
+
+#form #market {
+    color: #3e3e3e;
+}

@@ -1,0 +1,41 @@
+@import './animations.css';
+
+.button {
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--bright-text);
+    cursor: pointer;
+    font-weight: 600;
+    margin: 5px;
+    min-width: 12rem;
+    padding: var(--xs-space) var(--s-space);
+    transition: var(--transition);
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.standard {
+    background: var(--dark-color);
+    width: 12rem;
+}
+
+.standard:hover {
+    background: var(--darker-color);
+}
+
+.clear {
+    background: var(--stand-out-color-1);
+    width: 12rem;
+}
+
+.clear:hover{
+    background:rgb(240, 139, 102);
+}
+
+.copy {
+    margin-top: var(--xs-space);
+    opacity: 0;
+}
